@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: black;
+            
+        }
+
+        h1{
+            background-color: lightgrey;
+            
+        }
+
+        p{
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid rgb(248, 2, 2);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+           
+        }
+
+        div:hover{
+            background-color: yellow;
+            
+        }
+
+        div>p{
+            display: none;
+        }
+
+        div:hover > p {
+            text-align: center;
+            display: block;
+            color: aqua;
+            background-color: red;
+            width: 100px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <h1>Caixas em box</h1>
+    <div>1
+        <p> <a href="file:///D:/Estudos/HTML-CSS/Exercicios/ex021/caixa01.htm" target="_blank"> ESTUDO DE CAIXA</a></p>
+    </div>
+    <div>2
+        <p> <a href="https://www.alura.com.br/escola-front-end#caminhos" target="_blank"> ALURA</a></p>
+    </div>
+    <div>3
+        <p><a href="https://techguide.sh/pt-BR/path/front-end/" target="_blank">FRONT END</a></p>
+    </div>
+</body>
+</html>
