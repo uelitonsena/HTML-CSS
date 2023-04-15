@@ -1,0 +1,77 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+section#cabeça{
+    background-color: black;
+}
+main{
+    max-width:1200px ;
+    margin: auto;
+    padding: 0px;
+    border: 3px solid;
+}
+
+body {
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    height: 150px;
+    padding: 0px;
+    margin: auto
+    font-size: 1em;  
+}
+h1{
+    color: white;
+    font-variant: small-caps;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header > p{
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    border: 0px;
+}
+section{
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    border: 0px;
+    padding: 10px; 
+}
+#imageflor p{
+    background-color:  rgba(0, 0, 0, 0.514);
+    width: 60%;
+    color: white;
+}
+#imageflor{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#imagefolhas p{
+    background-color:  rgba(0, 0, 0, 0.514);
+    width: 60%;
+    color: white;    
+}
+#imagefolhas{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#rodape{
+    text-align: center;
+    border: 3px solid black;
+    padding: 0px;
+    max-width:1200px ;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
