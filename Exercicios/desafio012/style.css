@@ -5,13 +5,19 @@
 section#cabeça{
     background-color: black;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 main{
     max-width:1200px ;
     margin: auto;
     padding: 0px;
     border: 3px solid;
 }
-
+a{
+    text-decoration: none;
+}
 body {
     min-height: 100vh;
 }
@@ -34,10 +40,10 @@ h1{
 header > p{
     color: white;
     text-align: center;
-    display: block;
-    margin: 0px;
-    border: 0px;
+    text-decoration:underline;
+    font-weight: bolder;
 }
+
 section{
     font-size: 50px;
     font-family:'Courier New', Courier, monospace;
