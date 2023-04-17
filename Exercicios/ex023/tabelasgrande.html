@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative; /*fixar o cabeçalho*/
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            background-color: grey;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: white;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+            
+        }
+        thead > tr > th {/*fixar o cabeçalho*/
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+        /*Codigo para ficar zebrado*/
+        tbody > tr:nth-child(2n){
+            background-color: rgb(21, 124, 214);
+        }
+        /* Voce tambem pode colocar dentro dos parentezer par ou impa(odd-impar) ou (even-par) ou (2n-1) */
+        td.num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption><strong>População das unidades federativas.</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janairo</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 989 929</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 989 929</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 989 929</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td scope="row">Total de Habitantes</td>
+                <td class="num"><strong>000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, voluptates et necessitatibus sit amet libero doloribus magni, quis, fugiat a cumque beatae laudantium nemo tempore vitae tenetur optio enim id?</p>
+</body>
+</html>
