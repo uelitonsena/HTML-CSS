@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body, h1, form, p{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        form{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Utilizando formularios</h1>
+    <form action="cadastro.php" method="post"><!--Necessario form em qualquer aplicação de formulario junto com o codigo para a tecnologia que sera aplicada-->
+        <!--exite a o "method" que deixa sua informações privadas na url, o metodo GET deixa sua informações visiveis e existe o metodo POST que é mais indicado para dados sensiveis, porem ainda não é seguro pois os dados continuam visiveis no devtoos da pagina, é necessario criptografia em https-->
+        <p><label for="inome">Nome:</label> <!--Utilizar o label ligando ao id do input é importante-->
+            <input type="text" name="nome" id="inome"></p>
+        
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Eviar"></p>
+    </form>
+    
+</body>
+</html>

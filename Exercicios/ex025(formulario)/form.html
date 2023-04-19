@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusuario">Usuário:</label>
+            <input type="text" name="usuario" id="iusuario" required size="10" maxlength="20" placeholder="Nome do usuário" autocomplete="username">
+            <!--"required" da a função de ser obrigatorio colocar usuario e senha para acessar-->
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="6" maxlength="15" placeholder="minimo 8 caracterer" autocomplete="current-password">
+            <!--"minlength" representa que o caracter seja senha ou nome tem que ter umnumero minimo de caracter ou max-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
