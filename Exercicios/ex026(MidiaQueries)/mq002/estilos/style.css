@@ -1,2 +1,24 @@
 @charset "UTF-8";
 /*Configurações gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(124, 124, 240);
+   
+    /*Configurações para as imagens*/
+    background-size: contain; /*para deixar a imagem completa na pagina, normalmente utilizamos o [cover] porem para esse tipo o [contain] cerve*/
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
+}
