@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+/* Typical Device Breackpoints
+------------------------------
+Pequenas telas: até 600px (ja foi feita a configuração no idex)
+Celular: de 600px até 768px (ja foi feita a configuração no idex)
+Tablet: 768px até 992px
+Desktoop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px){
+    span#burguer{ /*para o amburguer desativar quando a tela estiver maior*/
+        display: none;
+    }
+    menu{ /*para o menu aparecer, porem ele fica visivel em forma de cascata*/
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+
+    }
+    main{
+        width: 768px;
+    }
+}

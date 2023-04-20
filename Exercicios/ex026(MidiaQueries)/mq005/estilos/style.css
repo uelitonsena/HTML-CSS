@@ -1,0 +1,68 @@
+@charset "UTF 8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: rgb(59, 71, 67);
+}
+header{
+    background-color: rgb(59, 71, 67);
+}
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+span#burguer{ /*configuração do menu burguer*/
+    background-color: gray;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*transforma a seta do mouse em mãozinha*/
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none; /*quando estava em [block] o menu aparecia, ao mudar para none o menu desaparece e fica dentro do amburguer*/
+}
+
+menu > ul{
+    list-style-type: none;/*Serve para tirar as bolinhas*/
+}
+menu > ul > li > a{
+    display:block;
+    padding: 10px;
+    text-decoration: none; /*tira a linha de baixo*/
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    border: 2px solid black;
+}
+menu a:hover { /*deixa o menu animado*/
+    background-color: grey;
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article > h2{
+    padding-bottom: 20px;
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px; /*Para da espaço no inicio de cada paragrafo*/
+}
